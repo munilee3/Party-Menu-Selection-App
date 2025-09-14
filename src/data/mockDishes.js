@@ -1,5 +1,4 @@
 const dishes = [
-   // ==== STARTERS ====
    {
      "id": 1,
      "name": "Paneer Tikka",
