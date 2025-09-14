@@ -200,7 +200,6 @@ body {
   z-index: 1000;
 }
 
-/* Bottom popup sheet */
 .ingredient-popup {
   background: #fff;
   width: 100%;
@@ -211,9 +210,11 @@ body {
   box-shadow: 0 -4px 12px rgba(0,0,0,0.2);
   animation: slideUp 0.3s ease;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* Close button */
 .close-btn {
   background: none;
   border: none;
@@ -352,6 +353,6 @@ body {
 .card-image{
   border-radius: 24px;
   height: 170px;
-  width: 90%;
+  width: 330px;
   align-self: center;
 }
