@@ -73,7 +73,7 @@ function App() {
         <div className="overlay" onClick={() => setCardModelDetails({})}>
           <div
             className="ingredient-popup"
-            onClick={(e) => e.stopPropagation()} // prevent closing on inner click
+            onClick={(e) => e.stopPropagation()}
           >
             <img src={cardModelDetails.image} alt="cart image" className='card-image'/>
             <div className='name-add-button-container'>
